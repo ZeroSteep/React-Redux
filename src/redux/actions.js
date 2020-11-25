@@ -36,7 +36,7 @@ export function asyncPosts() {
     dispatch({ type: SHOW_LOADER });
     try {
       const response = await fetch(
-        "вhttps://jsonplaceholder.typicode.com/posts?_limit=10"
+        "https://jsonplaceholder.typicode.com/posts?_limit=10"
       );
       const json = await response.json();
 
